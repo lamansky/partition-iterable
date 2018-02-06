@@ -1,0 +1,39 @@
+{
+  "name": "partition-iterable",
+  "version": "1.0.0",
+  "description": "Divides iterated values into those that match a filter and those that don’t.",
+  "keywords": [
+    "partition",
+    "iterable",
+    "array",
+    "filter",
+    "values"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/partition-iterable",
+  "repository": "lamansky/partition-iterable",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "ffn": "^2.0.0",
+    "reduce-iterable": "^1.0.0",
+    "sbo": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
